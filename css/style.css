@@ -14,7 +14,8 @@ body {
 
 /* header */
 .banner {
-    background: #0505055f;
+    border-bottom: 1px solid black;
+    border-color: rgb(189, 145, 61);
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -56,11 +57,19 @@ body {
     }
   
     .main-menu.shown ul {
-      border-top: 1px solid #000;
+      border-top: 1px solid rgb(189, 145, 61);
       padding-top: 1rem;
       display: flex;
       flex: 1 1 100%;
       flex-flow: column;
     }
+
+      .main-menu.shown ul :visited{
+        color: rgb(0, 0, 0);
+       }
+
+       .main-menu.shown ul :hover{
+        color: rgb(189, 145, 61);
+       }
   }
   
