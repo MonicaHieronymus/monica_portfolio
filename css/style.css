@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 249, 240);
+  margin: 0;
+  padding: 1rem;
 }
 
 .footer {
