@@ -1,4 +1,8 @@
 
+body {
+background-color: rgb(253, 249, 240);
+}
+
 main h1 {
     text-align: center;
     font-size: 40px;
@@ -6,12 +10,10 @@ main h1 {
 
 main h2 {
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
+    margin-top: -1rem;
 }
 
-.content {
-   
-}
 
 .content a {
     text-decoration: none;
@@ -26,12 +28,18 @@ main h2 {
     transition: 0.3s ease all;
 }
 
+
 .grid1-1 {
 display: grid;
 grid-template-columns: 1fr 1fr;
 text-align: center;
+margin-top: 4rem;
 }
 
 main img {
     width: 100%;
+}
+
+.footer {
+text-align: center;
 }
