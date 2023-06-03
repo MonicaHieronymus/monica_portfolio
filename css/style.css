@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(253, 249, 240);
+}
+
+.footer {
+  text-align: center;
+}
+
+
+
+
+
+/* header */
+.banner {
+    background: #5000ca22;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .main-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+    color: #000;
+  }
+  
+  /* burgermenu */
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  
+    display: none; 
+  }
+  
+  @media (max-width: 600px) {
+    .toggle-btn {
+      display: block; 
+    }
+  
+    .main-menu {
+      display: contents; 
+    }
+  
+    .main-menu ul {
+      display: none; 
+    }
+  
+    .main-menu.shown ul {
+      border-top: 1px solid #000;
+      padding-top: 1rem;
+      display: flex;
+      flex: 1 1 100%;
+      flex-flow: column;
+    }
+  }
+  

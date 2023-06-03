@@ -1,8 +1,4 @@
 
-body {
-background-color: rgb(253, 249, 240);
-}
-
 main h1 {
     text-align: center;
     font-size: 40px;
@@ -38,8 +34,4 @@ margin-top: 4rem;
 
 main img {
     width: 100%;
-}
-
-.footer {
-text-align: center;
 }
