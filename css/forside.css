@@ -1,4 +1,8 @@
 
+body {
+    color: rgb(189, 145, 61);
+}
+
 main h1 {
     text-align: center;
     font-size: 40px;
@@ -16,7 +20,7 @@ main h2 {
     display: inline-block;
     color: rgb(0, 0, 0);
     font-size: 30px;
-    border: 2px solid rgb(209, 23, 255);
+    border: 2px solid rgb(189, 145, 61);
     border-radius: 50px;
     padding: 10px 40px;
     margin-top: 20px;

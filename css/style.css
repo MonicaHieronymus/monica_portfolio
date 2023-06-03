@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(253, 249, 240);
-  margin: 0;
+  background-color: rgba(230, 225, 216, 0.31);
+  margin: 1rem;
   padding: 1rem;
 }
 
@@ -14,8 +14,8 @@ body {
 
 /* header */
 .banner {
-    background: #ca760022;
-    padding: 1.5rem;
+    background: #0505055f;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
