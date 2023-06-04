@@ -1,15 +1,8 @@
-
-body {
-    color: rgb(189, 145, 61);
-}
-
 main h1 {
-    text-align: center;
     font-size: 40px;
 }
 
 main h2 {
-    text-align: center;
     font-size: 15px;
     margin-top: -1rem;
 }
