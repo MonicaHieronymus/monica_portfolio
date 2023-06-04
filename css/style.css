@@ -68,6 +68,10 @@ body {
         color: rgb(0, 0, 0);
        }
 
+       .main-menu.shown ul a {
+        color: rgb(0, 0, 0);
+       }
+
        .main-menu.shown ul :hover{
         color: rgb(189, 145, 61);
        }
