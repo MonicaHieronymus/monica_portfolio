@@ -1,6 +1,7 @@
 
-h1, h2 {
-text-align: center;
+h1, h2, footer{
+    text-align: center;
+    color: rgb(189, 145, 61);
 }
 
 main img {
