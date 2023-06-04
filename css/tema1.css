@@ -19,12 +19,22 @@ iframe {
     }
 
 
-.storyboard {
+.grid1-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.storyboard p {
-    margin-left: 1.5rem;
+.storyboard {
+margin-left: 2rem;
+margin-top: -1em;
 }
 
+.musik {
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+.footer {
+    margin-top: 2rem;
+    margin-bottom: -1em;
+}
