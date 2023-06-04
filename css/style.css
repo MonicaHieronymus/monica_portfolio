@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+h1, h2, footer{
+  text-align: center;
+  color: rgb(189, 145, 61);
+}
 
 
 
@@ -39,7 +43,6 @@ body {
     min-height: 44px;
     font-size: 1.1rem;
     cursor: pointer;
-  
     display: none; 
   }
   

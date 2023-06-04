@@ -1,7 +1,3 @@
-h1, h2, footer{
-    text-align: center;
-    color: rgb(189, 145, 61);
-}
 
 .content a {
     text-decoration: none;
@@ -23,3 +19,4 @@ h1, h2, footer{
 main img {
 width: 100%;
 }
+
