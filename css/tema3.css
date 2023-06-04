@@ -1,29 +1,8 @@
 
-main img {
-width: 100%;
-}
-
 .grid1-1 {
 display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 2em;
-}
-
-.content a {
-    text-decoration: none;
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    border: 2px solid rgb(189, 145, 61);
-    border-radius: 50px;
-    padding: 10px 40px;
-    margin-top: 20px;
-    margin-bottom: 2.5em;
-    transition: 0.3s ease all;
-}
-
-.content {
-    text-align: center;
 }
 
 h2 {
