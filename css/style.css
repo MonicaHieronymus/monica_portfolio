@@ -34,6 +34,10 @@ main img {
   text-align: center;
 }
 
+.content :hover {
+color: white;
+background-color: rgb(189, 145,61);
+}
 
 /* header */
 .banner {
