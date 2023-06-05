@@ -120,6 +120,7 @@ background-color: rgb(189, 145,61);
 text-decoration: none;
  }
 
+ /*Web format*/
  @media (min-width: 800px) {
   body {
     display: grid;
@@ -137,7 +138,7 @@ text-decoration: none;
 
   nav ul {
     align-items: center;
-    font-size: 12px;
+    font-size: 12.8px;
   }       
 
  }
