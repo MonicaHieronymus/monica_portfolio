@@ -1,6 +1,24 @@
+/*Body farve og margin*/  
+body {
+  background-color: rgba(230, 225, 216, 0.31);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/*Billede størrelse*/  
+main img {
+  width: 100%;
+  }
+
 /*Fonte*/  
 h2, h3, p, a{
   font-family: 'Open Sans', sans-serif;
+}
+
+/*Placering af h1, h2 og footer*/  
+h1, h2, footer{
+  text-align: center;
+  color: rgb(189, 145, 61);
 }
 
 /*Styling af p i mobile*/  
@@ -11,24 +29,6 @@ p {
   margin-bottom: 2.5rem;
   line-height: 1.5rem;
 }
-
-/*Body farve og margin*/  
-body {
-  background-color: rgba(230, 225, 216, 0.31);
-  margin: 1rem;
-  padding: 1rem;
-}
-
-/*Placering af h1, h2 og footer*/  
-h1, h2, footer{
-  text-align: center;
-  color: rgb(189, 145, 61);
-}
-
-/*Billede størrelse*/  
-main img {
-  width: 100%;
-  }
 
 /*Farver og styling af knapper*/  
 .content a {
@@ -117,22 +117,6 @@ background-color: rgb(189, 145,61);
        }
   }
 
-/*Styling af links i web format*/ 
-.main-menu ul :visited{
-  color: rgb(0, 0, 0);
- }
-
- .main-menu ul a {
-  color: rgb(0, 0, 0);
- }
-
- .main-menu ul :hover{
-  color: rgb(189, 145, 61);
- }
-
- .main-menu a {
-text-decoration: none;
- }
 
  /*Web format*/
  @media (min-width: 800px) {
@@ -157,3 +141,20 @@ text-decoration: none;
 
  }
   
+
+/*Styling af links i web format*/ 
+.main-menu ul :visited{
+  color: rgb(0, 0, 0);
+ }
+
+ .main-menu ul a {
+  color: rgb(0, 0, 0);
+ }
+
+ .main-menu ul :hover{
+  color: rgb(189, 145, 61);
+ }
+
+ .main-menu a {
+text-decoration: none;
+ }
