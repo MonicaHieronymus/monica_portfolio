@@ -182,3 +182,19 @@ p {
 h2, h3, p, li {
   font-family: 'Open Sans', sans-serif;
 }
+
+.uddannelse p {
+  margin-top: -1rem;
+}
+
+.uddannelse h3 {
+  margin-top: -0.5rem;
+}
+
+.arbejde h3 {
+  margin-top: -0.3rem;
+}
+
+.Sprog ul {
+  margin-top: -0.5rem;
+}
