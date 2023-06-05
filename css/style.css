@@ -3,6 +3,15 @@ h2, h3, p, a{
   font-family: 'Open Sans', sans-serif;
 }
 
+/*Styling af p i mobile*/  
+p {
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-bottom: 2.5rem;
+  line-height: 1.5rem;
+}
+
 /*Body farve og margin*/  
 body {
   background-color: rgba(230, 225, 216, 0.31);
