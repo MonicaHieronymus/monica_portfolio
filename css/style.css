@@ -1,3 +1,8 @@
+/*Fonte*/  
+h2, a{
+  font-family: 'Open Sans', sans-serif;
+}
+
 /*Body farve og margin*/  
 body {
   background-color: rgba(230, 225, 216, 0.31);
