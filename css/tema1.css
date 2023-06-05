@@ -7,7 +7,7 @@ iframe {
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
-    margin-top: 1em;
+    margin-top: 0.5em;
     }
 
 
@@ -19,7 +19,7 @@ iframe {
 .storyboard {
 margin-left: 2rem;
 margin-top: -1.5em;
-font-size: 15.7px;
+font-size: 15.6px;
 margin-bottom: 2em;
 }
 
@@ -34,5 +34,5 @@ margin-bottom: 2rem;
 
 .footer {
     margin-top: 2rem;
-    margin-bottom: -1em;
+    margin-bottom: -0.5rem;
 }
