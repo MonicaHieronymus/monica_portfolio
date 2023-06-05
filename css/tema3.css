@@ -7,4 +7,19 @@ gap: 2em;
 
 h2 {
     font-size: 20px;
+    margin-top: 2.5rem;
+}
+
+main p {
+ margin-bottom: 0.5rem;   
+}
+
+main img {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pitchp {
+margin-top: -1.5rem;
+margin-bottom: 4rem;
 }
