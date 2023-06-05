@@ -98,4 +98,43 @@ main img {
         color: rgb(189, 145, 61);
        }
   }
+
+/*Styling af links i web format*/ 
+.main-menu ul :visited{
+  color: rgb(0, 0, 0);
+ }
+
+ .main-menu ul a {
+  color: rgb(0, 0, 0);
+ }
+
+ .main-menu ul :hover{
+  color: rgb(189, 145, 61);
+ }
+
+ .main-menu a {
+text-decoration: none;
+ }
+
+ @media (min-width: 800px) {
+  body {
+    display: grid;
+    max-width: 800px;
+    margin: auto;
+ 
+ }
+ 
+     main {
+     display: grid;
+     max-width: 800px;
+     margin: auto;
+ 
+         }
+
+  nav ul {
+    align-items: center;
+    font-size: 12px;
+  }       
+
+ }
   
