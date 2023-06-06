@@ -194,6 +194,9 @@ h2, h3, p, li {
 .arbejde h3 {
   margin-top: -0.3rem;
 }
+.arbejde p {
+  margin-top: -1rem;
+}
 
 .Sprog ul {
   margin-top: -0.5rem;
