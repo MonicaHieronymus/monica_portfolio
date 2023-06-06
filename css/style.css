@@ -16,9 +16,14 @@ h2, h3, p, a{
 }
 
 /*Placering af h1, h2 og footer*/  
-h1, h2, footer{
+h1, footer{
   text-align: center;
   color: rgb(189, 145, 61);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(189, 145, 61); 
 }
 
 .footer {
@@ -146,6 +151,15 @@ background-color: rgb(189, 145,61);
 
 .footer {
   margin-bottom: 0.5rem;
+}
+
+main p {
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 1em;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.5rem;
 }
 
  }
