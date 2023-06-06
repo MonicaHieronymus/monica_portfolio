@@ -21,6 +21,11 @@ h1, h2, footer{
   color: rgb(189, 145, 61);
 }
 
+.footer {
+  margin-top: 2rem;
+  margin-bottom: -0.5rem;
+}
+
 /*Styling af p i mobile*/  
 main p {
   text-decoration: none;

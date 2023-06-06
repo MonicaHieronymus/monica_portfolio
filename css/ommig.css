@@ -5,11 +5,30 @@ body {
     padding: 1rem;
   }
 
-/*Placering af h1, h2 og footer*/  
+/*Fonte*/  
+h2, h3, p, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Placering af h1, h2, p og footer*/  
   h1, footer{
     text-align: center;
     color: rgb(189, 145, 61);
   }
+
+  h2 {
+    color: rgb(189, 145, 61);
+    text-decoration-line: underline;
+}
+
+p {
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 1em;
+    margin-bottom: 2.5rem;
+    line-height: 1.5rem;
+}
+
 
   /*Billede størrelse*/  
 main img {
@@ -103,6 +122,43 @@ main img {
          }
     }
   
+    
+/*section mellemrum*/  
+
+.uddannelse {
+  margin-top: 3rem;
+}
+
+.uddannelse h3 {
+margin-top: -0.5rem;
+}
+
+.uddannelse p {
+margin-top: -1rem;
+}
+
+.arbejde {
+margin-top: 2rem;
+}
+
+.arbejde h3 {
+  margin-top: 1rem;
+  }
+
+.arbejde p {
+margin-top: -1rem;
+}
+
+.Sprog {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.Sprog ul {
+margin-top: -0.5rem;
+}
+
+
   /*Styling af links i web format*/ 
   .main-menu ul :visited{
     color: rgb(0, 0, 0);
@@ -142,62 +198,5 @@ main img {
   
    }
 
-/*section mellemrum*/  
 
-.uddannelse {
-    margin-top: 3rem;
-}
 
-.uddannelse h3 {
-    margin-top: 2rem;
-}
-
-.arbejde {
-margin-top: 3rem;
-}
-
-.arbejde h3 {
-    margin-top: 2rem;
-    }
-
-.Sprog {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-}
-
-h2 {
-    color: rgb(189, 145, 61);
-    text-decoration-line: underline;
-}
-
-p {
-    text-decoration: none;
-    font-size: 16px;
-    margin-top: 1em;
-    margin-bottom: 2.5rem;
-    line-height: 1.5rem;
-}
-
-/*Fonte*/  
-h2, h3, p, li {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.uddannelse p {
-  margin-top: -1rem;
-}
-
-.uddannelse h3 {
-  margin-top: -0.5rem;
-}
-
-.arbejde h3 {
-  margin-top: -0.3rem;
-}
-.arbejde p {
-  margin-top: -1rem;
-}
-
-.Sprog ul {
-  margin-top: -0.5rem;
-}
