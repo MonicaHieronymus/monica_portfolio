@@ -183,7 +183,7 @@ main p {
   line-height: 1.5rem;
 }
 
-.content2 a {
+.content a {
   text-decoration: none;
   display: inline-block;
   color: rgb(0, 0, 0);
@@ -196,11 +196,11 @@ main p {
   transition: 0.3s ease all;
 }
 
-.content2 {
+.content {
   text-align: center;
 }
 
-.content2 :hover {
+.content :hover {
 color: white;
 background-color: rgb(189, 145,61);
 }
