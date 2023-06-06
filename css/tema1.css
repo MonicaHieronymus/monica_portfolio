@@ -7,15 +7,6 @@ main h2 {
     font-size: 20px;
 }
 
-.grid1-1-1 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-}
-
-.grid1-1-1 img {
-    margin-top: 0.5rem;
-}
-
 iframe {
     width: 100%;
     height: auto;
@@ -23,7 +14,6 @@ iframe {
     margin-top: 0em;
     margin-bottom: 0.5rem;
     }
-
 
 .grid1-1{
     display: grid;
