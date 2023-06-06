@@ -1,13 +1,39 @@
 .content {
-margin-top: -2rem;
+  margin-top: -2rem;
 }
 
 img {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-    margin-top: 2.5rem;
-    margin-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 800px) {
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+
+.imgclass {
+    order: -1;
+    margin-top: 6rem;
+    margin-right: 2rem;
+}
+
+.pc {
+    order: 1;
+    margin-top: -10.9rem;
+}
+
+.content {
+margin-top: 0.5rem;
+margin-left: -2rem;
+}
+
+
+
 }
