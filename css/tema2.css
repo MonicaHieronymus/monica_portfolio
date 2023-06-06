@@ -20,20 +20,40 @@ h2 {
 
 .imgclass {
     order: -1;
-    margin-top: 6rem;
+    margin-top: 2.6rem;
     margin-right: 2rem;
 }
 
 .pc {
     order: 1;
-    margin-top: -10.9rem;
+    margin-top: -8rem;
 }
 
 .content {
-margin-top: 0.5rem;
+margin-top: -1rem;
 margin-left: -2rem;
 }
 
+.grid_1-2 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
 
+.imgclass2 {
+    order: 1;
+    margin-top: -33.5rem;
+    margin-right: 2rem;
+    margin-left: 4rem;
+}
+
+.pc2 {
+    order: -1;
+    margin-top: 5rem;
+    margin-bottom: -1rem;
+}
+
+.pclass2 {
+    margin-left: -20rem;
+}
 
 }
