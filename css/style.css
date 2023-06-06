@@ -62,6 +62,23 @@ color: white;
 background-color: rgb(189, 145,61);
 }
 
+/*Styling af links*/ 
+.main-menu ul :visited{
+  color: rgb(0, 0, 0);
+ }
+
+ .main-menu ul a {
+  color: rgb(0, 0, 0);
+ }
+
+ .main-menu ul :hover{
+  color: rgb(189, 145, 61);
+ }
+
+ .main-menu a {
+text-decoration: none;
+ }
+
 /* header */
 .banner {
     border-bottom: 1px solid black;
@@ -181,20 +198,3 @@ main p {
 
  }
   
-
-/*Styling af links*/ 
-.main-menu ul :visited{
-  color: rgb(0, 0, 0);
- }
-
- .main-menu ul a {
-  color: rgb(0, 0, 0);
- }
-
- .main-menu ul :hover{
-  color: rgb(189, 145, 61);
- }
-
- .main-menu a {
-text-decoration: none;
- }
