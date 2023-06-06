@@ -149,17 +149,21 @@ background-color: rgb(189, 145,61);
     font-size: 12.8px;
   }       
 
-.footer {
-  margin-bottom: 0.5rem;
-}
+  .footer {
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+  }
 
 main p {
   text-decoration: none;
   font-size: 14px;
   margin-top: 1em;
-  margin-left: 2rem;
   margin-bottom: 2.5rem;
   line-height: 1.5rem;
+}
+
+h2 {
+  text-align: left; 
 }
 
  }
