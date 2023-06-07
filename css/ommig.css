@@ -82,3 +82,20 @@ margin-top: 0rem;
   text-align: center;
   margin-bottom: 1.5rem;
 }
+
+@media (min-width: 800px) {
+
+.grid_1-1 {
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
+
+.kontakt {
+  margin-left: 5rem;
+}
+.imgclass {
+  margin-right: -4rem;
+  margin-top: 0.8rem;
+}
+
+}
