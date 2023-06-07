@@ -12,7 +12,6 @@ margin-top: -0.5rem;
 margin-top: -1rem;
 }
 
-
 .kontakt ul {
   list-style: none;
   margin-left: -2.5rem;
@@ -63,6 +62,10 @@ margin-top: 0rem;
   margin-bottom: 1.5rem;
 }
 
+.contact {
+  margin-top: 4rem;
+}
+
 @media (min-width: 800px) {
 
 .grid_1-1 {
@@ -79,11 +82,19 @@ grid-template-columns: 1fr 2fr;
 }
 
 .kontakt2 {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 footer {
   margin-bottom: -7rem;
+}
+
+.kontaktmig {
+  text-align: center;
+}
+
+.kontaktinfo {
+  margin-top: 3rem;
 }
 
 }
