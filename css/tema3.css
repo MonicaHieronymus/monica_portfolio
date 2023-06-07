@@ -19,6 +19,29 @@ margin-top: -1.5rem;
 margin-bottom: 4rem;
 }
 
+/*Farver og styling af knapper*/  
+.content2 a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 2px solid rgb(189, 145, 61);
+    border-radius: 50px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-bottom: 2.5em;
+    transition: 0.3s ease all;
+  }
+  
+  .content2 {
+    text-align: center;
+  }
+  
+  .content2 :hover {
+  color: white;
+  background-color: rgb(189, 145,61);
+  }
+
 
 @media (min-width: 800px) {
 
@@ -35,6 +58,45 @@ margin-bottom: 4rem;
 .pitchp {
     margin-bottom: -1rem;
 }  
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+}
+
+.imgclass {
+    margin-top: -1.3rem;
+    margin-right: 6rem;
+}
+
+.pitch {
+    margin-left: -3.6rem;
+    margin-bottom: -1.5rem;
+}
+
+.tema3 {
+    margin-left: -3.2rem;
+}
+
+.content2 a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: 2px solid rgb(189, 145, 61);
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 2.5em;
+    transition: 0.3s ease all;
+  }
+
+.content2 {
+    margin-left: -5rem;
+    margin-top: -11rem;
+}  
+
 
 
 }

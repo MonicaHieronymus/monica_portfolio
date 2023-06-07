@@ -183,6 +183,10 @@ main p {
   line-height: 1.5rem;
 }
 
+  main h2 {
+      font-size: 20px;
+  }
+
 .content a {
   text-decoration: none;
   display: inline-block;

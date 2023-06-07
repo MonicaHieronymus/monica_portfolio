@@ -22,7 +22,7 @@ h2 {
 
 .imgclass {
     order: -1;
-    margin-top: 2.6rem;
+    margin-top: 2.4rem;
     margin-right: 2rem;
 }
 
@@ -32,12 +32,12 @@ h2 {
 
 .pc {
     order: 1;
-    margin-top: -8rem;
+    margin-top: -8.5rem;
     margin-left: 1.5rem;
 }
 
 .content {
-margin-top: -1rem;
+margin-top: -1.5rem;
 margin-left: -2rem;
 }
 
@@ -48,14 +48,14 @@ margin-left: -2rem;
 
 .imgclass2 {
     order: 1;
-    margin-top: -33.5rem;
+    margin-top: -32.7rem;
     margin-right: 2rem;
     margin-left: 5rem;
 }
 
 .pc2 {
     order: -1;
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-bottom: -1rem;
 }
 

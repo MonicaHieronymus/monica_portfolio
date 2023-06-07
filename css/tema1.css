@@ -1,12 +1,4 @@
 
-main p {
-font-size: 12px;
-}
-
-main h2 {
-    font-size: 20px;
-}
-
 iframe {
     width: 100%;
     height: auto;
@@ -28,7 +20,7 @@ margin-bottom: 5rem;
 }
 
 .storyboard h2 {
-    margin-left: -2.5rem;
+    margin-left: -0.2rem;
     margin-top: 1em;
 }
 
@@ -57,7 +49,7 @@ margin-right: 5rem;
 
 .præs {
 margin-left: 21.5rem;
-margin-top: -1rem;
+margin-top: -1.5rem;
 }
 
 .tema1 {
