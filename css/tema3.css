@@ -1,9 +1,4 @@
 
-.grid1-1 {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 2em;
-}
 
 h2 {
     font-size: 25px;
@@ -26,6 +21,20 @@ margin-bottom: 4rem;
 
 
 @media (min-width: 800px) {
+
+    h2 {
+        text-align: center;
+    }
+
+.grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    }
+
+.pitchp {
+    margin-bottom: -1rem;
+}  
 
 
 }
