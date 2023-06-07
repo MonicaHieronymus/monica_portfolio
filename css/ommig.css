@@ -63,7 +63,7 @@ margin-top: 0rem;
 }
 
 .contact {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 @media (min-width: 800px) {
@@ -77,8 +77,8 @@ grid-template-columns: 1fr 2fr;
   margin-left: 5rem;
 }
 .imgclass {
-  margin-right: -4rem;
-  margin-top: 0.7rem;
+  margin-right: -3rem;
+  margin-top: 1.2rem;
 }
 
 .kontakt2 {
