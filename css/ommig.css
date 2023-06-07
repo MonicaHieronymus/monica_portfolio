@@ -50,4 +50,38 @@ main h3 {
   font-size: 15px;
 }
 
+/*Styling af kontakt formular*/
+form {
+  display: grid;
+  gap: 1.5rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
 
+label,
+input,
+textarea,
+select,
+button {
+display: block;
+}
+
+.form-felt {
+display: grid;
+gap: 3px;
+}
+
+.kontaktinfo {
+margin-top: -1rem;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.kontakt2 h2 {
+  text-align: center;
+}
