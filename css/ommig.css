@@ -54,10 +54,10 @@ main h3 {
 form {
   display: grid;
   gap: 1.5rem;
-  background: hsl(264 30% 96%);
+  background: hsl(39, 67%, 92%);
   border-radius: 8px;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: -1em;
   margin-bottom: 5rem;
 }
 
@@ -75,13 +75,10 @@ gap: 3px;
 }
 
 .kontaktinfo {
-margin-top: -1rem;
-}
-
-h3 {
-  font-weight: bold;
+margin-top: 0rem;
 }
 
 .kontakt2 h2 {
   text-align: center;
+  margin-bottom: 1.5rem;
 }
