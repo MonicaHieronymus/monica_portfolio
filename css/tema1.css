@@ -45,23 +45,24 @@ margin-bottom: 2rem;
 
 .grid2-1 {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     margin-top: 4rem;
 }
 
-.grid2-1 .imgclass {
-    order: -1;
-}
-
-.grid2-1 p {
-   order: -1;
-   margin-left: 2rem;
+.imgclass {
+order: -1;
+margin-top: -7rem;
 }
 
 .præs {
-display: grid;
-grid-template-columns: 1fr 1fr;
-margin-top: -21em;
+margin-left: 27rem;
+margin-top: 0rem;
+}
+
+.tema1 {
+   order: -1;
+   margin-top: -5rem;
+   margin-left: 2rem;
 }
 
 main h2 {
@@ -79,8 +80,9 @@ main h2 {
 }
 
 .grid1-2 .vid {
-    order: 5;
+    order: 2;
     margin-left: 2rem;
+    margin-top: -1.2rem;
 }
 
 
