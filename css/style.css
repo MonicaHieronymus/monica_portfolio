@@ -23,11 +23,17 @@ h1, footer{
 
 h2 {
   color: rgb(189, 145, 61); 
+  
 }
 
 .footer {
   margin-top: 2rem;
   margin-bottom: -0.5rem;
+}
+
+footer {
+  border-top: 1px solid rgb(189, 145, 61);
+  padding: 2rem;
 }
 
 /*Styling af p og ul i mobile*/  
@@ -149,11 +155,6 @@ text-decoration: none;
        h2 {
         text-align: center;
        }
-
-       footer {
-        border-top: 1px solid rgb(189, 145, 61);
-        padding: 2rem;
-      }
 
   }
 
