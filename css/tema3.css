@@ -1,7 +1,7 @@
 /*Mobilformat "UX"*/ 
 
 h2 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
 }
 
 main img {
@@ -56,7 +56,12 @@ margin-bottom: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
+    margin-top: 2rem;
     }
+
+main h2 {
+    margin-top: 1.5rem;
+}    
 
 .pitchp {
     margin-bottom: -1rem;
