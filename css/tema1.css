@@ -12,28 +12,20 @@ iframe {
 /*storyboard + musik*/      
 .grid1-1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .storyboard {
-margin-left: 2rem;
 margin-top: -1.5em;
-font-size: 15.6px;
 margin-bottom: 5rem;
 }
 
 .storyboard h2 {
-    margin-left: -0.2rem;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .storyboard p {
 margin-bottom: 1em;
-}
-
-.musik {
-margin-top: 2rem;
-margin-bottom: 2rem;
 }
 
 /*Webformat*/  
@@ -75,6 +67,10 @@ main h2 {
     grid-template-columns: 2fr 2fr;
 }
 
+.titelsek {
+    margin-top: -1rem;
+}
+
 .grid1-2 p {
     margin-top: -0.5rem;
     margin-left: 0rem;
@@ -86,18 +82,26 @@ main h2 {
     margin-top: -1.2rem;
 }
 
-/*storyboard*/ 
-.storyboard h2 {
-margin-left: 0;
+/*storyboard + musik*/      
+.grid1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .storyboard {
-    margin-top: -1.6rem;
+margin-left: 2rem;
+margin-top: -1.5em;
+font-size: 15.6px;
+margin-bottom: 5rem;
 }
 
-.grid1-1 img {
-    margin-top: -0.5rem;
+.storyboard h2 {
+    margin-left: -0.2rem;
+    margin-top: 1em;
 }
 
+.storyboard p {
+margin-bottom: 1em;
+}
 
  }

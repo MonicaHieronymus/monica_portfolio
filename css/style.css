@@ -111,6 +111,7 @@ text-decoration: none;
   
   /* burgermenu */
   .toggle-btn {
+    color: #000;
     background: transparent;
     border: none;
     min-width: 44px;
