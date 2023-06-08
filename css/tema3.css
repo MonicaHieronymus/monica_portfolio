@@ -46,6 +46,14 @@ margin-bottom: 4rem;
   background-color: rgb(189, 145,61);
   }
 
+  /*billede nederst på siden*/  
+.puppe {
+    width: 13%;
+    margin-left: 14.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    }
+
 /*Webformat "UX"*/ 
 
 @media (min-width: 800px) {
@@ -112,5 +120,13 @@ main h2 {
     margin-left: -5rem;
     margin-top: -15rem;
 }  
+
+/*billede nederst på siden*/   
+.puppe {
+    width: 10%;
+    margin-left: 21rem;
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+    }
 
 }

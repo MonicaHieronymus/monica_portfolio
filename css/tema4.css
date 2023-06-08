@@ -12,6 +12,15 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
+/*billede nederst på siden*/  
+.puppe {
+  width: 17%;
+  margin-left: 12rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  }
+
+
 /*Webformat "Animation"*/  
 @media (min-width: 800px) {
   
@@ -42,5 +51,13 @@ h2 {
   .content {
     margin-left: -30rem;
     margin-top: -24rem;
+  }
+
+  /*billede nederst på siden*/   
+.puppe {
+  width: 12%;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
   }
 }

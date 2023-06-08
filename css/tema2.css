@@ -39,6 +39,13 @@ color: white;
 background-color: rgb(189, 145,61);
 }
 
+/*billede nederst på siden*/  
+.puppe {
+width: 20%;
+margin-left: 12rem;
+margin-top: 2rem;
+}
+
 /*Webformat "WEB"*/ 
 @media (min-width: 800px) {
   
@@ -113,5 +120,13 @@ margin-left: -1rem;
   margin-top: -3em;
   margin-left: -2rem;
 }  
+
+/*billede nederst på siden*/  
+.puppe {
+  width: 15%;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  }
 
 }
