@@ -81,16 +81,16 @@ margin-top: 0rem;
 
   /*billede øverst på siden*/   
   .sommerfugl {
-    width: 35%;
-    margin-left: 13rem;
-    margin-top: -3.5rem;
+    width: 50%;
+    margin-left: 8.2rem;
+    margin-top: -3.9rem;
     margin-bottom: 1rem;
     }
 
 /*billede nederst på siden*/  
 .puppe {
   width: 12%;
-  margin-left: 1rem;
+  margin-left: 0.2rem;
   margin-top: 0rem;
   margin-bottom: 0rem;
   }
@@ -98,14 +98,14 @@ margin-top: 0rem;
   /*billede nederst på siden*/  
 .puppe2 {
   width: 10%;
-  margin-left: 7.5rem;
-  margin-top: -2rem;
+  margin-left: 5rem;
+  margin-top: -1rem;
   }
 
   /*billede nederst på siden*/  
   .puppe3 {
     width: 7%;
-    margin-left: 14rem;
+    margin-left: 10rem;
     margin-top: -3.5rem;
     margin-bottom: 0rem;
     }
@@ -113,18 +113,22 @@ margin-top: 0rem;
     /*billede nederst på siden*/  
 .puppe4 {
   width: 8%;
-  margin-left: 20rem;
-  margin-top: -5rem;
+  margin-left: 14rem;
+  margin-top: -4rem;
   margin-bottom: 2rem;
   }
 
   /*billede nederst på siden*/  
 .puppe5 {
   width: 20%;
-  margin-left: 25rem;
-  margin-top: -10rem;
+  margin-left: 18rem;
+  margin-top: -8rem;
   margin-bottom: 4rem;
   }
+
+ .metamorphosis {
+  margin-bottom: 4rem;
+ }
 
 /*web format "om mig"*/  
 @media (min-width: 800px) {
