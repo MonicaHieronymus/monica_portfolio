@@ -5,11 +5,15 @@ h2 {
 }
 
 main img {
-    margin-top: 0.5rem;
+    margin-top: -0.5rem;
     margin-bottom: 0.5rem;
 }
 
 /*specifikke paragraphs*/ 
+.pitch {
+    margin-bottom: -0.5rem;
+}
+
 .tema3 {
     margin-bottom: -2rem;
 }
@@ -75,7 +79,7 @@ main h2 {
 }
 
 .imgclass {
-    margin-top: -2.5rem;
+    margin-top: -1.5rem;
     margin-right: 5.5rem;
 }
 
