@@ -1,4 +1,4 @@
-/*mobile site om mig*/  
+/*mobilesite "om mig"*/  
 
 .uddannelse {
   margin-top: -0.5rem;
@@ -66,6 +66,7 @@ margin-top: 0rem;
   margin-top: 2rem;
 }
 
+/*web format "om mig"*/  
 @media (min-width: 800px) {
 
 .grid_1-1 {

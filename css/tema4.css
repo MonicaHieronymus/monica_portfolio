@@ -1,14 +1,7 @@
+/*Mobilformat "Animation"*/  
 main img {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-main video {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16/9;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
 }
 
 .content {
@@ -19,8 +12,10 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
+/*Webformat "Animation"*/  
 @media (min-width: 800px) {
-  .grid2_1 {
+  
+.grid2_1 {
 display: grid;
 grid-template-columns: 2fr 3fr;
   }

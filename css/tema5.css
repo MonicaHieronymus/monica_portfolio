@@ -1,48 +1,125 @@
+/*Mobilformat "Indhold"*/
+
 .content {
-    margin-top: -2.5rem;
+  margin-top: -2.5rem;
 }
 
 main img {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
-
 
 /*Farver og styling af knapper*/
 
-/*Virksomhedssite knap*/    
+/*Virksomhedssite knap*/
 .content2 a {
-    text-decoration: none;
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    border: 2px solid rgb(189, 145, 61);
-    border-radius: 50px;
-    padding: 10px 40px;
-    margin-top: 20px;
-    margin-bottom: 2.5em;
-    transition: 0.3s ease all;
-  }
-  
-  .content2 {
-    text-align: center;
-  }
-  
-  .content2 :hover {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border: 2px solid rgb(189, 145, 61);
+  border-radius: 50px;
+  padding: 10px 40px;
+  margin-top: 20px;
+  margin-bottom: 2.5em;
+  transition: 0.3s ease all;
+}
+
+.content2 {
+  text-align: center;
+}
+
+.content2 :hover {
   color: white;
-  background-color: rgb(189, 145,61);
+  background-color: rgb(189, 145, 61);
+}
+
+.content2 {
+  margin-top: -1.7rem;
+}
+
+/*Procesdokumentation*/
+.content3 a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border: 2px solid rgb(189, 145, 61);
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 2.5em;
+  transition: 0.3s ease all;
+}
+
+.content3 {
+  text-align: center;
+}
+
+.content3 :hover {
+  color: white;
+  background-color: rgb(189, 145, 61);
+}
+
+.content3 {
+  margin-top: -3rem;
+  margin-left: 0rem;
+}
+
+/*Webformat "Indhold"*/
+
+@media (min-width: 800px) {
+  /*Videosite*/
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
   }
 
-  .content2 {
-    margin-top: -1.7rem;
+  .imgclass {
+    margin-top: -2.8rem;
   }
 
-/*Procesdokumentation*/  
-  .content3 a {
+  .videosite {
+    margin-left: 21.8rem;
+    margin-top: 2rem;
+  }
+  .pclass {
+    margin-left: 5.3rem;
+    margin-top: -1.5rem;
+  }
+
+  /*Virksomhedssite*/
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .imgclass2 {
+    margin-top: -2.8rem;
+  }
+
+  .virksomhed {
+    margin-left: 21.8rem;
+    margin-top: 2rem;
+  }
+  .pclass2 {
+    margin-left: 5.3rem;
+    margin-top: -1rem;
+  }
+
+  /*Farver og styling af knapper*/
+
+  /*Videosite knap*/
+  .content {
+    margin-top: -10rem;
+  }
+
+  /*Virksomhedssite knap*/
+  .content2 a {
     text-decoration: none;
     display: inline-block;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 16px;
     border: 2px solid rgb(189, 145, 61);
     border-radius: 50px;
     padding: 10px 20px;
@@ -50,115 +127,45 @@ main img {
     margin-bottom: 2.5em;
     transition: 0.3s ease all;
   }
-  
+
+  .content2 {
+    text-align: center;
+  }
+
+  .content2 :hover {
+    color: white;
+    background-color: rgb(189, 145, 61);
+  }
+
+  .content2 {
+    margin-top: -22rem;
+  }
+
+  /*Procesdokumentation knap*/
+  .content3 a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: 2px solid rgb(189, 145, 61);
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 2.5em;
+    transition: 0.3s ease all;
+  }
+
   .content3 {
     text-align: center;
   }
-  
+
   .content3 :hover {
-  color: white;
-  background-color: rgb(189, 145,61);
+    color: white;
+    background-color: rgb(189, 145, 61);
   }
 
   .content3 {
-    margin-top: -3rem;
-    margin-left: 0rem;
+    margin-top: -18rem;
+    margin-left: -49.5rem;
   }
-
-
-@media (min-width: 800px) {
-
-    .grid_1-1 {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-    }
-
-    .imgclass {
-        margin-top: -2.8rem;
-    }
-
-    .videosite {
-        margin-left: 21.8rem;
-        margin-top: 2rem;
-    }
-    .pclass {
-        margin-left: 5.3rem;
-        margin-top: -1.5rem;
-    }
-
-    .grid_1-2 {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-    }
-
-    .imgclass2 {
-        margin-top: -2.8rem;
-    }
-
-    .virksomhed {
-        margin-left: 21.8rem;
-        margin-top: 2rem;
-    }
-    .pclass2 {
-        margin-left: 5.3rem;
-        margin-top: -1rem;
-    }
-
-    .content {
-        margin-top: -10rem;
-    }
-
-    .content2 a {
-        text-decoration: none;
-        display: inline-block;
-        color: rgb(0, 0, 0);
-        font-size: 16px;
-        border: 2px solid rgb(189, 145, 61);
-        border-radius: 50px;
-        padding: 10px 20px;
-        margin-top: 20px;
-        margin-bottom: 2.5em;
-        transition: 0.3s ease all;
-      }
-      
-      .content2 {
-        text-align: center;
-      }
-      
-      .content2 :hover {
-      color: white;
-      background-color: rgb(189, 145,61);
-      }
-
-      .content2 {
-        margin-top: -22rem;
-      }
-
-      .content3 a {
-        text-decoration: none;
-        display: inline-block;
-        color: rgb(0, 0, 0);
-        font-size: 16px;
-        border: 2px solid rgb(189, 145, 61);
-        border-radius: 50px;
-        padding: 10px 20px;
-        margin-top: 20px;
-        margin-bottom: 2.5em;
-        transition: 0.3s ease all;
-      }
-      
-      .content3 {
-        text-align: center;
-      }
-      
-      .content3 :hover {
-      color: white;
-      background-color: rgb(189, 145,61);
-      }
-
-      .content3 {
-        margin-top: -18rem;
-        margin-left: -49.5rem;
-      }
-
-} 
+}

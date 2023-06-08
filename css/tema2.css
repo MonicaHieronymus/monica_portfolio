@@ -1,3 +1,4 @@
+/*Mobilformat "WEB"*/ 
 
 img {
   margin-top: 0.5rem;
@@ -9,12 +10,15 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+/*knap*/ 
 .content {
   margin-top: -2rem;
 }
 
-
+/*Webformat "WEB"*/ 
 @media (min-width: 800px) {
+  
+ /*Studiestartprøve*/  
   .grid_2-1 {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -36,11 +40,13 @@ h2 {
     margin-left: 1.5rem;
 }
 
+/*knap*/ 
 .content {
 margin-top: -1rem;
 margin-left: -2rem;
 }
 
+/*Emnesite*/ 
 .grid_1-2 {
     display: grid;
     grid-template-columns: 2fr 3fr;
