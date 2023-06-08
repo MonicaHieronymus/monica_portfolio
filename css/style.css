@@ -11,7 +11,7 @@ main img {
   }
 
 /*Fonte*/  
-h2, h3, p, a{
+h2, h3, p, ul, a{
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -30,13 +30,17 @@ h2 {
   margin-bottom: -0.5rem;
 }
 
-/*Styling af p i mobile*/  
+/*Styling af p og ul i mobile*/  
 main p {
   text-decoration: none;
   font-size: 14px;
   margin-top: 1em;
   margin-bottom: 2.5rem;
   line-height: 1.5rem;
+}
+
+main ul {
+  font-size: 14px;
 }
 
 /*Farver og styling af knapper*/  
@@ -146,6 +150,11 @@ text-decoration: none;
         text-align: center;
        }
 
+       footer {
+        border-top: 1px solid rgb(189, 145, 61);
+        padding: 2rem;
+      }
+
   }
 
 
@@ -172,7 +181,11 @@ text-decoration: none;
 
   .footer {
     margin-top: 4rem;
-    margin-bottom: 0.5rem;
+  }
+
+  footer {
+    border-top: 1px solid rgb(189, 145, 61);
+    padding: 2rem;
   }
 
 main p {
@@ -181,6 +194,10 @@ main p {
   margin-top: 1em;
   margin-bottom: 2.5rem;
   line-height: 1.5rem;
+}
+
+main ul {
+  font-size: 14px;
 }
 
 main h2 {

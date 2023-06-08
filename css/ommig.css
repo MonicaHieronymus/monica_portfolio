@@ -12,6 +12,15 @@ margin-top: -0.5rem;
 margin-top: -1rem;
 }
 
+.kontakt p {
+margin-top: -0.5rem;
+}
+
+.kontakt h3 {
+  font-size: 16px;
+  margin-top: 1.5rem;
+}
+
 .kontakt ul {
   list-style: none;
   margin-left: -2.5rem;
@@ -63,7 +72,7 @@ margin-top: 0rem;
 }
 
 .contact {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 /*web format "om mig"*/  
@@ -79,7 +88,11 @@ grid-template-columns: 1fr 2fr;
 }
 .imgclass {
   margin-right: -3rem;
-  margin-top: 1.2rem;
+  margin-top: 2rem;
+}
+
+.uddannelse {
+  margin-top: -1rem;
 }
 
 .kontakt2 {
