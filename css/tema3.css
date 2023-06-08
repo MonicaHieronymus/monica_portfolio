@@ -1,8 +1,7 @@
 /*Mobilformat "UX"*/ 
 
 h2 {
-    font-size: 25px;
-    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 
 main img {
@@ -51,6 +50,7 @@ margin-bottom: 4rem;
         text-align: center;
     }
 
+
 /*interviews*/     
 .grid1-1 {
     display: grid;
@@ -70,17 +70,19 @@ margin-bottom: 4rem;
 }
 
 .imgclass {
-    margin-top: -1.3rem;
+    margin-top: -1rem;
     margin-right: 5.5rem;
 }
 
 .pitch {
     margin-left: -3.6rem;
     margin-bottom: -1.5rem;
+    margin-top: 2rem;
 }
 
 .tema3 {
     margin-left: -3.2rem;
+    margin-top: 0.5rem;
 }
 
 /*knap (pitch)*/ 
@@ -99,7 +101,7 @@ margin-bottom: 4rem;
 
 .content2 {
     margin-left: -5rem;
-    margin-top: -13rem;
+    margin-top: -14rem;
 }  
 
 }

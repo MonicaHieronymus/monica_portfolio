@@ -6,13 +6,36 @@ img {
 }
 
 h2 {
-  margin-top: 2.5rem;
   margin-bottom: 0.5rem;
 }
 
 /*knap*/ 
 .content {
   margin-top: -2rem;
+}
+
+
+/*Farver og styling af knap "pitch"*/  
+.content2 a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border: 2px solid rgb(189, 145, 61);
+  border-radius: 50px;
+  padding: 10px 40px;
+  margin-top: 20px;
+  margin-bottom: 2.5em;
+  transition: 0.3s ease all;
+}
+
+.content2 {
+  text-align: center;
+}
+
+.content2 :hover {
+color: white;
+background-color: rgb(189, 145,61);
 }
 
 /*Webformat "WEB"*/ 
@@ -26,47 +49,68 @@ h2 {
 
 .imgclass {
     order: -1;
-    margin-top: 2.4rem;
+    margin-top: 2.7rem;
     margin-right: 0.5rem;
 }
 
 .pclass {
   margin-left: 1.5rem;
+  margin-top: 2rem;
 }
 
 .pc {
     order: 1;
-    margin-top: -9.5rem;
+    margin-top: -9rem;
     margin-left: 1.5rem;
 }
 
 /*knap*/ 
 .content {
 margin-top: -1rem;
-margin-left: -2rem;
+margin-left: -1rem;
 }
 
 /*Emnesite*/ 
 .grid_1-2 {
     display: grid;
     grid-template-columns: 2fr 3fr;
+    margin-top: -1.5rem;
   }
 
 .imgclass2 {
     order: 1;
-    margin-top: -34rem;
-    margin-right: 2rem;
+    margin-top: -38rem;
     margin-left: 5rem;
 }
 
 .pc2 {
     order: -1;
     margin-top: 4rem;
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
 }
 
 .pclass2 {
     margin-left: -20rem;
+    margin-top: 1.5rem;
 }
+
+/*knap (emnesite)*/ 
+.content2 a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  border: 2px solid rgb(189, 145, 61);
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 2.5em;
+  transition: 0.3s ease all;
+}
+
+.content2 { 
+  margin-top: -3em;
+  margin-left: -2rem;
+}  
 
 }
