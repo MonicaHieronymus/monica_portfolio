@@ -56,11 +56,11 @@ margin-bottom: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     }
 
 main h2 {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }    
 
 .pitchp {
@@ -75,7 +75,7 @@ main h2 {
 }
 
 .imgclass {
-    margin-top: -1rem;
+    margin-top: -2.5rem;
     margin-right: 5.5rem;
 }
 
@@ -87,7 +87,7 @@ main h2 {
 
 .tema3 {
     margin-left: -3.2rem;
-    margin-top: 0.5rem;
+    margin-top: -0.5rem;
 }
 
 /*knap (pitch)*/ 
@@ -106,7 +106,7 @@ main h2 {
 
 .content2 {
     margin-left: -5rem;
-    margin-top: -14rem;
+    margin-top: -15rem;
 }  
 
 }
