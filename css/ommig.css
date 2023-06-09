@@ -35,7 +35,7 @@ text-align: left;
 }
 
 main h3 {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 /*Styling af kontakt formular*/
@@ -57,14 +57,20 @@ button {
 display: block;
 }
 
+textarea {
+  width: 60%;
+}
+
 .form-felt {
 display: grid;
 gap: 3px;
 }
 
-.kontaktinfo {
-margin-top: 0rem;
+.form-felt label {
+margin-left: 1rem;
+margin-top: 1rem;
 }
+
 
 .kontakt2 h2 {
   text-align: center;
@@ -75,6 +81,7 @@ margin-top: 0rem;
   margin-top: 4rem;
 }
 
+/*billede øverst på siden af mig*/  
 .imgclass {
   margin-top: -1rem;
 }
@@ -149,7 +156,20 @@ margin-top: -3rem;
 
 .uddannelse {
   margin-top: -1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
 }
+
+.ud2 {
+  margin-top: 3.6rem;
+  margin-left: 0.6rem;
+}
+
+.sp {
+  margin-left: 0.8rem;
+}
+
 
 .kontakt2 {
   margin-top: 3rem;
@@ -163,9 +183,11 @@ footer {
   text-align: center;
 }
 
-.kontaktinfo {
-  margin-top: 3rem;
-}
+.form-felt label {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  }
+
 
   /*billede øverst på siden*/   
   .sommerfugl {
@@ -175,7 +197,6 @@ footer {
     margin-bottom: 1rem;
     }
 
-    /*billede nederst på siden*/   
 .puppe {
   width: 12%;
   margin-left: 1rem;
@@ -183,31 +204,27 @@ footer {
   margin-top: 2rem;
   }
 
-/*billede nederst på siden*/  
 .puppe2 {
   width: 10%;
   margin-left: 11rem;
   margin-top: -3rem;
   margin-bottom: -2rem;
   }
-
-  /*billede nederst på siden*/   
+ 
 .puppe3 {
   width: 7%;
   margin-left: 21.5rem;
   margin-top: -7rem;
   margin-bottom: -2rem;
   }
-
-    /*billede nederst på siden*/   
+ 
 .puppe4 {
   width: 8%;
   margin-left: 31rem;
   margin-top: -9rem;
   margin-bottom: -2rem;
   }
-
-    /*billede nederst på siden*/   
+  
     .puppe5 {
       width: 20%;
       margin-left: 39rem;
@@ -219,8 +236,13 @@ footer {
   margin-bottom: 4rem;
 }
 
+/*kontaktformular*/ 
       form {
         margin-bottom: 11rem;
+      }
+
+      textarea {
+        width: 23.5%;
       }
       
 
