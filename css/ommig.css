@@ -1,33 +1,30 @@
 /*mobilesite "om mig"*/  
 
+.kontakt p {
+  margin-top: -0.5rem;
+  }
+  
+  .kontakt h3 {
+    font-size: 16px;
+    margin-top: 1.5rem;
+  }
+  
+  .kontakt ul {
+    list-style: none;
+    margin-left: -2.5rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+
 .uddannelse {
   margin-top: -0.5rem;
 }
 
-.uddannelse h3 {
-margin-top: -0.5rem;
-}
-
 .uddannelse p {
 margin-top: -1rem;
-}
-
-.kontakt p {
-margin-top: -0.5rem;
-}
-
-.kontakt h3 {
-  font-size: 16px;
-  margin-top: 1.5rem;
-}
-
-.kontakt ul {
-  list-style: none;
-  margin-left: -2.5rem;
-  margin-top: -1rem;
-  margin-bottom: 2rem;
-  font-size: 12px;
-  font-weight: bold;
 }
 
 main h2 {
@@ -36,7 +33,22 @@ text-align: left;
 
 main h3 {
   font-size: 12px;
+  margin-top: -0.5rem;
 }
+
+main h1 {
+  margin-top: 28px;
+  margin-left: -6px;
+}
+
+.komp {
+  margin-top: 35px;
+}
+
+.sp {
+  margin-top: 35px;
+}
+
 
 /*Styling af kontakt formular*/
 form {
@@ -158,6 +170,10 @@ margin-top: 1rem;
 /*web format "om mig"*/  
 @media (min-width: 800px) {
 
+main h1 {
+  margin-top: 3.5rem;
+}
+
 main h3 {
   font-size: 14px;
 }
@@ -171,6 +187,7 @@ margin-top: -1rem;
 .kontakt {
   margin-left: 5rem;
 }
+
 .imgclass {
   margin-right: -3rem;
   margin-top: 1.8rem;
@@ -190,7 +207,16 @@ margin-top: -1rem;
 
 .sp {
   margin-left: 0.8rem;
-  margin-top: -2rem;
+  margin-top: -3.5rem;
+}
+
+.komp {
+  margin-left: 0.8rem;
+  margin-top: -3.1rem;
+}
+
+.komp li {
+  line-height: -2px;
 }
 
 .ab {
