@@ -62,14 +62,14 @@ margin-top: 2rem;
 }
 
 .pclass {
-  margin-left: 1.5rem;
+  margin-left: 1.9rem;
   margin-top: 2rem;
 }
 
 .pc {
     order: 1;
     margin-top: -9rem;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
 }
 
 /*knap*/ 
@@ -82,12 +82,12 @@ margin-left: -1rem;
 .grid_1-2 {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    margin-top: -1.5rem;
+    margin-top: -0.5rem;
   }
 
 .imgclass2 {
     order: 1;
-    margin-top: -38rem;
+    margin-top: -36rem;
     margin-left: 5rem;
 }
 
@@ -125,7 +125,7 @@ margin-left: -1rem;
 .puppe {
   width: 12%;
   margin-left: 21rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: -2rem;
   }
 
